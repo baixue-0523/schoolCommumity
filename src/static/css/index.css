@@ -1,0 +1,136 @@
+.home-page {
+  min-height: 100vh;
+  padding-bottom: calc(170rpx + env(safe-area-inset-bottom));
+  background-image: url('../校园背景.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.header-spacer {
+  height: calc(var(--status-bar-height) + 218rpx);
+}
+
+.feed-section {
+  margin: 0 28rpx;
+  overflow: hidden;
+  border-radius: 24rpx;
+  box-shadow: 0 12rpx 36rpx rgba(31, 45, 61, 0.08);
+}
+
+.feed-title-wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 26rpx 26rpx 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+}
+
+.feed-main-title {
+  color: #172033;
+  font-size: 34rpx;
+  font-weight: 900;
+  background: linear-gradient(135deg, #172033, #2f6bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feed-sub-title {
+  color: #9aa4b2;
+  font-size: 24rpx;
+}
+
+.feed-list {
+  background: transparent;
+}
+
+.share-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  align-items: flex-end;
+  background: rgba(0, 0, 0, 0.38);
+}
+
+.share-panel {
+  width: 100%;
+  padding: 28rpx 28rpx calc(20rpx + env(safe-area-inset-bottom));
+  border-radius: 32rpx 32rpx 0 0;
+  background: #ffffff;
+}
+
+.share-row {
+  white-space: nowrap;
+}
+
+.share-friends {
+  display: flex;
+  gap: 26rpx;
+  padding-bottom: 26rpx;
+}
+
+.share-friend,
+.share-channel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.share-avatar,
+.channel-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 32rpx;
+  font-weight: 800;
+}
+
+.share-name,
+.channel-name {
+  margin-top: 10rpx;
+  color: #697386;
+  font-size: 22rpx;
+}
+
+.share-channels {
+  display: flex;
+  justify-content: space-around;
+  padding: 24rpx 0;
+  border-top: 1rpx solid #eef1f6;
+  border-bottom: 1rpx solid #eef1f6;
+}
+
+.channel-icon {
+  background: #f5f7fb;
+  color: #2f6bff;
+}
+
+.share-cancel {
+  padding-top: 24rpx;
+  color: #172033;
+  font-size: 30rpx;
+  font-weight: 700;
+  text-align: center;
+}

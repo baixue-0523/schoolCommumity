@@ -1,0 +1,197 @@
+.page {
+  min-height: 100vh;
+  padding: calc(var(--status-bar-height) + 24rpx) 28rpx 100rpx;
+  background-image: url('../校园背景.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24rpx;
+  padding: 10rpx 0;
+}
+
+.back-btn {
+  color: #172033;
+  font-size: 50rpx;
+  font-weight: 700;
+  width: 60rpx;
+}
+
+.circle-title {
+  color: #172033;
+  font-size: 34rpx;
+  font-weight: 900;
+  text-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.05);
+}
+
+.join-btn {
+  padding: 10rpx 24rpx;
+  border-radius: 999rpx;
+  background: #2f6bff;
+  color: #ffffff;
+  font-size: 24rpx;
+  font-weight: 700;
+  box-shadow: 0 6rpx 16rpx rgba(47, 107, 255, 0.2);
+}
+
+.join-btn.joined {
+  background: rgba(0, 0, 0, 0.1);
+  color: #172033;
+  box-shadow: none;
+}
+
+/* 圈子卡片 */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.post-card {
+  padding: 26rpx;
+  border-radius: 24rpx;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 12rpx 32rpx rgba(31, 45, 61, 0.04);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16rpx;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff7a59, #8b5cf6);
+  color: #ffffff;
+  font-size: 28rpx;
+  font-weight: 800;
+  margin-right: 16rpx;
+}
+
+.username {
+  color: #172033;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+
+.college {
+  color: #7a869a;
+  font-size: 20rpx;
+  margin-top: 4rpx;
+}
+
+.time {
+  color: #a1a1a6;
+  font-size: 22rpx;
+}
+
+.post-title {
+  color: #172033;
+  font-size: 30rpx;
+  font-weight: 800;
+  margin-bottom: 12rpx;
+}
+
+.post-content {
+  color: #303847;
+  font-size: 26rpx;
+  line-height: 1.5;
+  margin-bottom: 18rpx;
+}
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  gap: 32rpx;
+  border-top: 1rpx solid rgba(0, 0, 0, 0.03);
+  padding-top: 16rpx;
+}
+
+.action-item {
+  display: flex;
+  align-items: center;
+  color: #697386;
+  font-size: 24rpx;
+  font-weight: 500;
+}
+
+.action-icon {
+  margin-right: 8rpx;
+  font-size: 26rpx;
+}
+
+.action-item.liked {
+  color: #ff4d4f;
+}
+
+.floating-group {
+  position: fixed;
+  right: 36rpx;
+  bottom: calc(150rpx + env(safe-area-inset-bottom));
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.float-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 104rpx;
+  height: 104rpx;
+  border-radius: 50%;
+  color: #ffffff;
+  box-shadow: 0 8rpx 24rpx rgba(0, 0, 0, 0.22);
+  transition: all 0.2s ease;
+}
+
+.float-btn:active {
+  transform: scale(0.92);
+}
+
+.float-btn.back {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(10px);
+}
+
+.float-btn.publish {
+  background: linear-gradient(135deg, #2f6bff, #8b5cf6);
+}
+
+.btn-icon {
+  font-size: 32rpx;
+  line-height: 1;
+}
+
+.btn-text {
+  font-size: 22rpx;
+  margin-top: 6rpx;
+  font-weight: 800;
+}
+
+.btn-icon-img {
+  width: 30rpx;
+  height: 30rpx;
+}

@@ -1,0 +1,133 @@
+{
+	//pages数组中第一项表示应用启动页，
+	// 参考：https://uniapp.dcloud.io/collocation/pages
+	//报错没事，因为标准 JSON 格式不允许注释
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "校园社区",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/circle/circle",
+			"style": {
+				"navigationBarTitleText": "校园圈子",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发布动态",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "好友聊天",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/post-detail/post-detail",
+			"style": {
+				"navigationBarTitleText": "帖子详情",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/notice-detail/notice-detail",
+			"style": {
+				"navigationBarTitleText": "公告详情",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/feature/feature",
+			"style": {
+				"navigationBarTitleText": "校园服务",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+			"path": "pages/circle-detail/circle-detail",
+			"style": {
+				"navigationBarTitleText": "圈子详情",
+				"navigationStyle": "custom",
+				"backgroundColor": "#F5F7FB"
+			}
+		},
+		{
+  			"path": "pages/mine/my-posts",
+ 			"style": {
+    		"navigationStyle": "custom",
+    		"backgroundColor": "#F5F7FB"
+  			}
+		},
+		{
+		"path": "pages/mine/my-collections",
+		"style": {
+			"navigationStyle": "custom",
+			"backgroundColor": "#F5F7FB"
+		}
+		},
+		{
+		"path": "pages/mine/browse-history",
+		"style": {
+			"navigationStyle": "custom",
+			"backgroundColor": "#F5F7FB"
+		}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园社区",
+		"navigationBarBackgroundColor": "#F5F7FB",
+		"backgroundColor": "#F5F7FB"
+	}
+}
+
+
